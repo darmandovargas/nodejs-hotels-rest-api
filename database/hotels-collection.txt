@@ -1,0 +1,48 @@
+{ 
+    "_id" : ObjectId("5a58026700d99c2459c8b0c7"), 
+    "name" : "The Cameroon", 
+    "stars" : "5", 
+    "images" : "../assets/img/cameroon.jpg", 
+    "price" : "1000000", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5a58027600d99c2459c8b0c8"), 
+    "name" : "Hilton", 
+    "stars" : "5", 
+    "images" : "../assets/img/hilton.jpg", 
+    "price" : "1000000", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5a5beb7e3ea3932dcfdde2b8"), 
+    "name" : "Burj Al Arab", 
+    "stars" : "6", 
+    "images" : "../assets/img/burjalarab.jpeg", 
+    "price" : "50'000.000", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5a5bed2e3ea3932dcfdde2b9"), 
+    "name" : "Sheraton", 
+    "stars" : "5", 
+    "images" : "../assets/img/sheraton.jpeg", 
+    "price" : "50'000.000", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5a5bed383ea3932dcfdde2ba"), 
+    "name" : "Singapore", 
+    "stars" : "5", 
+    "images" : "../assets/img/singapore.png", 
+    "price" : "50'000.000", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5a5bee3b3ea3932dcfdde2bb"), 
+    "name" : "Eden", 
+    "stars" : "4", 
+    "images" : "../assets/img/eden.jpg", 
+    "price" : "50'000.000", 
+    "__v" : NumberInt(0)
+}
