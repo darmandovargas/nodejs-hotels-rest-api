@@ -22,3 +22,6 @@ Lo ideal es que se ejecute en por el puerto por defecto **3000**, así el servic
 Este proyecto fue creado con el IDE WebStorm.
 
 La idea de éste ejercicio es la creación de un API REST con NodeJS y MongoDB.
+
+![alt text](https://raw.githubusercontent.com/darmandovargas/nodejs-hotels-rest-api/master/NodeJS%20API%20REST.png)
+
