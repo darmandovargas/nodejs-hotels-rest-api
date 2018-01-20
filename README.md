@@ -5,14 +5,14 @@ Al Mundo Front Test. Es un api que permite hacer un CRUD a un servicio Nodejs co
 La colección 
 
 ### Modo de Uso
-Clona el proyecto
+Clona el proyecto e ingrsar a la carpeta almundo-front-nodejs-mongodb-hotels-rest-api
 
 ### Instalación
 * npm install
 
 ### Run
 
-* npm run start
+* node app.js
 
 ### Collection
 La colección está en la carpeta **database**, y se deberá llamar **hotels**, dentro de la base de datos llamada **onlinestore**.
