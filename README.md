@@ -17,7 +17,7 @@ Clona el proyecto e ingrsar a la carpeta almundo-front-nodejs-mongodb-hotels-res
 ### Collection
 La colección está en la carpeta **database**, y se deberá llamar **hotels**, dentro de la base de datos llamada **onlinestore**.
 
-Lo ideal es que se ejecute en por el puerto por defecto **3000**, así el servicio de Front [Angular 5 Front][https://github.com/darmandovargas/almundo-front].
+Lo ideal es que se ejecute en por el puerto por defecto **3000**, así el servicio de Front [Angular 5 Front][https://github.com/darmandovargas/almundo-front] puede usarlo.
 
 Este proyecto fue creado con el IDE WebStorm.
 
