@@ -2,19 +2,19 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
-  Product = require('./restapi/models/hotelModel'),
+  Task = require('./restapi/models/taskModel'),
   bodyParser = require('body-parser');
 
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/onlinestore', { useMongoClient: true });
+mongoose.connect('mongodb://localhost/evolution', { useMongoClient: true });
 
 var cors = require('cors');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-var routes = require('./restapi/routes/hotelRoutes');
+var routes = require('./restapi/routes/taskRoutes');
 routes(app);
 
 app.use(cors());
@@ -41,4 +41,4 @@ app.use(function(req, res) {
 
 app.listen(port);
 
-console.log('Al Mundo Hotels Website -  RESTful web services with Nodejs started on: ' + port);
+console.log('Evolution Tasks Website -  RESTful web services with Nodejs started on: ' + port);
