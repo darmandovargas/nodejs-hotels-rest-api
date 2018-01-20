@@ -1,0 +1,31 @@
+{
+  "name": "almundo-front-nodejs-mongodb-hotels-rest-api",
+  "version": "1.0.0",
+  "description": "Almundo Fron Test: RESTful web service using noejs mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "keywords": [
+    "Al Mundo Front",
+    "RESTful web services",
+    "Nodejs MongoDB",
+    "Rest API"
+  ],
+  "author": "Diego Vargas",
+  "license": "MIT",
+  "homepage": "http://diegovargas.us",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1",
+    "mongoose": "^4.13.9"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "Al Mundo NodeJS mongoDB Hotels REST API"
+  }
+}
